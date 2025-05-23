@@ -30,13 +30,6 @@ var shirtSleeve = 8.47; // size M (medium)
 Then print N/A to the console because the measurements don't all match up with one particular size.
 
 */
-// Size	   Width   Length  Sleeve
-// S	    18"	    28"	    8.13"
-// M	    20"	    29"	    8.38"
-// L	    22"	    30"	    8.63"
-// XL	    24"	    31"	    8.88"
-// 2XL	    26"	    33"	    9.63"
-// 3XL	    28"	    34"	    10.13"
 
 const shirtWidth = 22; // size L (large)
 const shirtLength = 30; // size L (large)
