@@ -43,8 +43,12 @@ function makeLine(length) {
   return line + "\n";
 }
 
-function recite(buildTriangle, length) {
-  console.log(buildTriangle(length));
+function buildTriangle(width) {
+  let triangle = "";
+  for (let i = 1; i <= width; i++) {
+    triangle += makeLine(i);
+  }
+  return triangle;
 }
 
-recite(makeLine, 10);
+console.log(buildTriangle(10));
