@@ -32,29 +32,20 @@ T-1 seconds
 Solid rocket booster ignition and liftoff!
 */
 
-let time = 60;
-
-while (time >= 0) {
-  switch (time) {
-    case 50:
-      console.log("Orbiter transfers from ground to internal poser");
-      break;
-    case 31:
-      console.log("Ground launch sequencer is go for auto sequence start");
-      break;
-    case 16:
-      console.log("Activate launch pad sound suppression system");
-      break;
-    case 10:
-      console.log("Activate main engine hydrogen burnoff system");
-      break;
-    case 6:
-      console.log("Main engine start");
-      break;
-    case 0:
-      console.log("Solid rocket booster ignition and liftoff!");
-    default:
-      console.log(`T-${time} seconds`);
+for (let i = 60; i >= 0; i--) {
+  if (i == 50) {
+    console.log("Orbiter transfers from ground to internal power");
+  } else if (i == 31) {
+    console.log("Ground launch sequencer is go for auto sequence start");
+  } else if (i == 16) {
+    console.log("Activate launch pad sound suppression system");
+  } else if (i == 10) {
+    console.log("Activate main engine hydrogen burnoff system");
+  } else if (i == 6) {
+    console.log("Main engine start");
+  } else if (i == 0) {
+    console.log("Solid rocket booster ignition and lift off!");
+  } else {
+    console.log(`T-${i} seconds`);
   }
-  time--;
 }
