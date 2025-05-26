@@ -15,7 +15,7 @@ I'd like two scoops of vanilla ice cream in a cone with peanuts.
 
 let flavor = "vanilla";
 let vessel = "cone";
-let toppings = "sprinkles";
+let toppings = "peanuts";
 
 if (
   (flavor === "vanilla" || flavor === "chocolate") &&

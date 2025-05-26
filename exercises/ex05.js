@@ -1,13 +1,4 @@
 /*
-
-Size	Width	Length	Sleeve
-S	    18"	    28"	    8.13"
-M	    20"	    29"	    8.38"
-L	    22"	    30"	    8.63"
-XL	    24"	    31"	    8.88"
-2XL	    26"	    33"	    9.63"
-3XL	    28"	    34"	    10.13"
-
 Use the sizing chart above, create a series of logical expressions 
 that prints the size of a t-shirt based on the measurements of shirtWidth, shirtLength, and shirtSleeve. 
 Valid sizes include S, M, L, XL, 2XL, and 3XL.
@@ -29,11 +20,18 @@ var shirtLength = 29; // size M (medium)
 var shirtSleeve = 8.47; // size M (medium)
 Then print N/A to the console because the measurements don't all match up with one particular size.
 
+Size	Width	Length	Sleeve
+S	    18"	    28"	    8.13"
+M	    20"	    29"	    8.38"
+L	    22"	    30"	    8.63"
+XL	    24"	    31"	    8.88"
+2XL	    26"	    33"	    9.63"
+3XL	    28"	    34"	    10.13"
 */
 
-const shirtWidth = 22; // size L (large)
-const shirtLength = 30; // size L (large)
-const shirtSleeve = 8.62; // size L (large)
+const shirtWidth = 28; // size L (large)
+const shirtLength = 34; // size L (large)
+const shirtSleeve = 9.65; // size L (large)
 
 let size = "N/A";
 
