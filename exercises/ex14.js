@@ -12,8 +12,8 @@ row: 25 - seat: 98
 row: 25 - seat: 99
 */
 
-for (let row = 0; row <= 25; row++) {
-  for (let seat = 0; seat <= 99; seat++) {
-    console.log(`row: ${row} - seat: ${seat}`);
+for (let i = 0; i <= 25; i++) {
+  for (let j = 0; j <= 99; j++) {
+    console.log(`row: ${i} - seat: ${j}`);
   }
 }
