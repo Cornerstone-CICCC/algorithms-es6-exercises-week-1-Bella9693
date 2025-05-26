@@ -13,10 +13,4 @@ const bark = function (num) {
   }
   return shout;
 };
-
-function laugh(callback) {
-  let message = callback(3);
-  return message;
-}
-
-console.log(laugh(bark));
+console.log(bark(3));
