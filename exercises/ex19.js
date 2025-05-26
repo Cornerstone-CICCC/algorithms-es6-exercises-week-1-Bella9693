@@ -5,17 +5,14 @@ emotions("happy", laugh(2)); // you can use your laugh function from the previou
 Prints: "I am happy, haha!"
 */
 
-const bark = function (num) {
-  let shout = "";
-  for (let i = 0; i < num; i++) {
-    shout += "ha";
-  }
-  return shout;
-};
-
-function laugh(callback) {
-  let message = callback(3);
-  return message;
+function emotions(myString, myFunc) {
+  console.log("I am " + myString + ", " + myFunc(2));
 }
 
-console.log(`I am ${emotions}, ${num}`);
+emotions("happy", function (num) {
+  let sound = "";
+  for (let i = 0; i < num; i++) {
+    sound += "ha";
+  }
+  return sound + "!";
+});
